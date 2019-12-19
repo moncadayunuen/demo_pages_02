@@ -1,0 +1,16 @@
+{
+  "name": "demo_pages_02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "browser": "browser-sync start --server --files \"./css/**/*.css, ./js/**/*.js, *.html\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.7"
+  }
+}
